@@ -7,7 +7,8 @@ A tool in Python that can evaluate any machine failure dataset that automaticall
 The Reliability and Maintenance Analysis Tool (RMAT) is designed to assist in maintenance decision-making for various machines based on historical reliability and condition data. It allows users to analyze maintenance histories and condition-based data to determine optimal maintenance strategies, aiming to minimize maintenance costs while improving machine reliability.
 
 RMAT is built in Python and supports Kaplan-Meier and Weibull reliability estimations, as well as cost analyses for both age-based and condition-based maintenance policies. The tool is scalable and can be applied to future machines or datasets following the same structure.
-Features
+
+### Features
 
 For each machine in the dataset, RMAT can:
 
