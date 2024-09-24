@@ -76,3 +76,20 @@ This will generate the required reliability estimates, MTBF, and cost function p
 Future Extensibility
 
 RMAT is built to be scalable and reusable. You can easily analyze new machines by providing datasets that follow the required structure. The tool can handle machines with or without condition data.
+
+### Example screenshots
+![Machine-1-cost](https://github.com/user-attachments/assets/90051582-70fa-4e5a-b8da-f3d1de5c7260)
+![Machine-1-Reliability](https://github.com/user-attachments/assets/63719721-6678-4c43-a0e8-eb31d3a6071a)
+
+### Contributions
+
+Krzysztof Piotrowski
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Contact
+
+For any questions or issues, please contact krzysztof.piotrowski.in@gmail.com
+
