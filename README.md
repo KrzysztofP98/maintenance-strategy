@@ -25,7 +25,7 @@ For each machine in the dataset, RMAT can:
 
 ### Project Structure 
 
-bash
+bash ```
 
 Project Directory:
 .
@@ -35,7 +35,7 @@ Project Directory:
 ├── Machine-3-condition-data.csv  # Additional condition data for Machine 3
 ├── README.md                     # Project documentation
 └── maintenance_strategy.py       # Python script for maintenance strategy
-
+```
 
 ### Getting Started
 ##### Prerequisites
