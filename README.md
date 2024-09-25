@@ -64,32 +64,11 @@ RMAT works with datasets containing the following information for each machine:
 Ensure that your input dataset follows the structure outlined in the manual provided. This ensures compatibility with the tool.
 Running the Tool
 
-    Analyze Kaplan-Meier and Weibull Estimates: The tool will estimate the reliability function using both Kaplan-Meier and Weibull methods. It will generate a plot showcasing these estimates and calculate the MTBF for both.
+- Analyze Kaplan-Meier and Weibull Estimates: The tool will estimate the reliability function using both Kaplan-Meier and Weibull methods. It will generate a plot showcasing these estimates and calculate the MTBF for both.
+- Cost Analysis for Age-Based Maintenance: RMAT will calculate and plot the mean cost per unit time for an age-based maintenance strategy, varying the maintenance age TT.
+- Condition-Based Maintenance Analysis: For machines with condition data, the tool simulates and calculates the cost per unit time for different condition-based maintenance thresholds. The tool also provides a plot showing these costs for different threshold values.
 
-    Cost Analysis for Age-Based Maintenance: RMAT will calculate and plot the mean cost per unit time for an age-based maintenance strategy, varying the maintenance age TT.
 
-    Condition-Based Maintenance Analysis: For machines with condition data, the tool simulates and calculates the cost per unit time for different condition-based maintenance thresholds. The tool also provides a plot showing these costs for different threshold values.
-
-Example Usage
-
-Once the data is prepared, you can run RMAT as follows:
-
-python
-
-# Import the tool
-from rmat import RMAT
-
-# Load your dataset
-data = pd.read_csv("machine_data.csv")
-
-# Create RMAT object and run analysis
-rmat = RMAT(data)
-rmat.run_analysis()
-
-This will generate the required reliability estimates, MTBF, and cost function plots.
-Future Extensibility
-
-RMAT is built to be scalable and reusable. You can easily analyze new machines by providing datasets that follow the required structure. The tool can handle machines with or without condition data.
 
 ### Example screenshots
 ![Machine-1-cost](https://github.com/user-attachments/assets/90051582-70fa-4e5a-b8da-f3d1de5c7260)
