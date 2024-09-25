@@ -27,6 +27,7 @@ For each machine in the dataset, RMAT can:
 
 ```bash and 
 .
+├── Costs.csv                     # Data file for Costs of corrective and preventive maintenance
 ├── Machine-1.csv                 # Data file for Machine 1
 ├── Machine-2.csv                 # Data file for Machine 2
 ├── Machine-3.csv                 # Data file for Machine 3
