@@ -5,7 +5,7 @@ matplotlib.use('Agg') # Using 'Agg' backend for non-interactive plotting
 import matplotlib.pyplot as plt
 import math
 
-data_path = ""  # Path to the directory where data files are located
+data_path = "./"  # Path to the directory where data files are located
 
 #Prepares the dataset by adding a Duration column
 def data_preparation(a):
