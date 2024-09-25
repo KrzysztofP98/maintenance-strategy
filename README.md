@@ -24,6 +24,9 @@ For each machine in the dataset, RMAT can:
   - Provide a visualization of maintenance costs for varying thresholds.
 
 ### Project Structure 
+
+bash
+
 Project Directory:
 .
 ├── Machine-1.csv                 # Data file for Machine 1
@@ -32,6 +35,7 @@ Project Directory:
 ├── Machine-3-condition-data.csv  # Additional condition data for Machine 3
 ├── README.md                     # Project documentation
 └── maintenance_strategy.py       # Python script for maintenance strategy
+
 
 ### Getting Started
 ##### Prerequisites
