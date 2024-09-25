@@ -25,7 +25,7 @@ For each machine in the dataset, RMAT can:
 
 ### Project Structure 
 
-bash ```
+```bash and 
 
 Project Directory:
 .
@@ -36,6 +36,7 @@ Project Directory:
 ├── README.md                     # Project documentation
 └── maintenance_strategy.py       # Python script for maintenance strategy
 ```
+
 
 ### Getting Started
 ##### Prerequisites
