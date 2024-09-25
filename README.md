@@ -23,6 +23,16 @@ For each machine in the dataset, RMAT can:
   - Simulate and calculate the mean cost per unit time of a condition-based maintenance policy for different threshold values.
   - Provide a visualization of maintenance costs for varying thresholds.
 
+### Project Structure 
+Project Directory:
+.
+├── Machine-1.csv                 # Data file for Machine 1
+├── Machine-2.csv                 # Data file for Machine 2
+├── Machine-3.csv                 # Data file for Machine 3
+├── Machine-3-condition-data.csv  # Additional condition data for Machine 3
+├── README.md                     # Project documentation
+└── maintenance_strategy.py       # Python script for maintenance strategy
+
 ### Getting Started
 ##### Prerequisites
 
