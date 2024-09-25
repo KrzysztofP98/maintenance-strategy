@@ -26,8 +26,6 @@ For each machine in the dataset, RMAT can:
 ### Project Structure 
 
 ```bash and 
-
-Project Directory:
 .
 ├── Machine-1.csv                 # Data file for Machine 1
 ├── Machine-2.csv                 # Data file for Machine 2
